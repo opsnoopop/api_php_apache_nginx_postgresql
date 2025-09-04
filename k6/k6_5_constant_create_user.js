@@ -63,7 +63,7 @@ export function handleSummary(data) {
   
   return {
     [filename]: htmlReport(data, {
-      title: "5_constant_create_user_api_php_apache_nginx_mysql_" + year + month + day + "_" + hours + minutes + seconds
+      title: "5_constant_create_user_api_php_apache_nginx_postgresql_" + year + month + day + "_" + hours + minutes + seconds
     }),
   };
 }
